@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8674F41BC23F41000E40DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8674F31BC23F41000E40DA /* AppDelegate.swift */; };
+		CB8674F61BC23F41000E40DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8674F51BC23F41000E40DA /* ViewController.swift */; };
+		CB8674F91BC23F41000E40DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8674F71BC23F41000E40DA /* Main.storyboard */; };
+		CB8674FB1BC23F41000E40DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8674FA1BC23F41000E40DA /* Assets.xcassets */; };
+		CB8674FE1BC23F41000E40DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8674FC1BC23F41000E40DA /* LaunchScreen.storyboard */; };
+		CB8675091BC23F41000E40DA /* CardsteinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8675081BC23F41000E40DA /* CardsteinTests.swift */; };
+		CB8675141BC23F41000E40DA /* CardsteinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8675131BC23F41000E40DA /* CardsteinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8675051BC23F41000E40DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB8674E81BC23F41000E40DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB8674EF1BC23F41000E40DA;
+			remoteInfo = Cardstein;
+		};
+		CB8675101BC23F41000E40DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB8674E81BC23F41000E40DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB8674EF1BC23F41000E40DA;
+			remoteInfo = Cardstein;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB8674F01BC23F41000E40DA /* Cardstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8674F31BC23F41000E40DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB8674F51BC23F41000E40DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB8674F81BC23F41000E40DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB8674FA1BC23F41000E40DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB8674FD1BC23F41000E40DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB8674FF1BC23F41000E40DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8675041BC23F41000E40DA /* CardsteinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsteinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8675081BC23F41000E40DA /* CardsteinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsteinTests.swift; sourceTree = "<group>"; };
+		CB86750A1BC23F41000E40DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB86750F1BC23F41000E40DA /* CardsteinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsteinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8675131BC23F41000E40DA /* CardsteinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsteinUITests.swift; sourceTree = "<group>"; };
+		CB8675151BC23F41000E40DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8674ED1BC23F41000E40DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8675011BC23F41000E40DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB86750C1BC23F41000E40DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8674E71BC23F41000E40DA = {
+			isa = PBXGroup;
+			children = (
+				CB8674F21BC23F41000E40DA /* Cardstein */,
+				CB8675071BC23F41000E40DA /* CardsteinTests */,
+				CB8675121BC23F41000E40DA /* CardsteinUITests */,
+				CB8674F11BC23F41000E40DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB8674F11BC23F41000E40DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB8674F01BC23F41000E40DA /* Cardstein.app */,
+				CB8675041BC23F41000E40DA /* CardsteinTests.xctest */,
+				CB86750F1BC23F41000E40DA /* CardsteinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8674F21BC23F41000E40DA /* Cardstein */ = {
+			isa = PBXGroup;
+			children = (
+				CB8674F31BC23F41000E40DA /* AppDelegate.swift */,
+				CB8674F51BC23F41000E40DA /* ViewController.swift */,
+				CB8674F71BC23F41000E40DA /* Main.storyboard */,
+				CB8674FA1BC23F41000E40DA /* Assets.xcassets */,
+				CB8674FC1BC23F41000E40DA /* LaunchScreen.storyboard */,
+				CB8674FF1BC23F41000E40DA /* Info.plist */,
+			);
+			path = Cardstein;
+			sourceTree = "<group>";
+		};
+		CB8675071BC23F41000E40DA /* CardsteinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8675081BC23F41000E40DA /* CardsteinTests.swift */,
+				CB86750A1BC23F41000E40DA /* Info.plist */,
+			);
+			path = CardsteinTests;
+			sourceTree = "<group>";
+		};
+		CB8675121BC23F41000E40DA /* CardsteinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8675131BC23F41000E40DA /* CardsteinUITests.swift */,
+				CB8675151BC23F41000E40DA /* Info.plist */,
+			);
+			path = CardsteinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8674EF1BC23F41000E40DA /* Cardstein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8675181BC23F41000E40DA /* Build configuration list for PBXNativeTarget "Cardstein" */;
+			buildPhases = (
+				CB8674EC1BC23F41000E40DA /* Sources */,
+				CB8674ED1BC23F41000E40DA /* Frameworks */,
+				CB8674EE1BC23F41000E40DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardstein;
+			productName = Cardstein;
+			productReference = CB8674F01BC23F41000E40DA /* Cardstein.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB8675031BC23F41000E40DA /* CardsteinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB86751B1BC23F41000E40DA /* Build configuration list for PBXNativeTarget "CardsteinTests" */;
+			buildPhases = (
+				CB8675001BC23F41000E40DA /* Sources */,
+				CB8675011BC23F41000E40DA /* Frameworks */,
+				CB8675021BC23F41000E40DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8675061BC23F41000E40DA /* PBXTargetDependency */,
+			);
+			name = CardsteinTests;
+			productName = CardsteinTests;
+			productReference = CB8675041BC23F41000E40DA /* CardsteinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB86750E1BC23F41000E40DA /* CardsteinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB86751E1BC23F41000E40DA /* Build configuration list for PBXNativeTarget "CardsteinUITests" */;
+			buildPhases = (
+				CB86750B1BC23F41000E40DA /* Sources */,
+				CB86750C1BC23F41000E40DA /* Frameworks */,
+				CB86750D1BC23F41000E40DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8675111BC23F41000E40DA /* PBXTargetDependency */,
+			);
+			name = CardsteinUITests;
+			productName = CardsteinUITests;
+			productReference = CB86750F1BC23F41000E40DA /* CardsteinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8674E81BC23F41000E40DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = CharlieWu;
+				TargetAttributes = {
+					CB8674EF1BC23F41000E40DA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CB8675031BC23F41000E40DA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CB8674EF1BC23F41000E40DA;
+					};
+					CB86750E1BC23F41000E40DA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CB8674EF1BC23F41000E40DA;
+					};
+				};
+			};
+			buildConfigurationList = CB8674EB1BC23F41000E40DA /* Build configuration list for PBXProject "Cardstein" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB8674E71BC23F41000E40DA;
+			productRefGroup = CB8674F11BC23F41000E40DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8674EF1BC23F41000E40DA /* Cardstein */,
+				CB8675031BC23F41000E40DA /* CardsteinTests */,
+				CB86750E1BC23F41000E40DA /* CardsteinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8674EE1BC23F41000E40DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8674FE1BC23F41000E40DA /* LaunchScreen.storyboard in Resources */,
+				CB8674FB1BC23F41000E40DA /* Assets.xcassets in Resources */,
+				CB8674F91BC23F41000E40DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8675021BC23F41000E40DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB86750D1BC23F41000E40DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8674EC1BC23F41000E40DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8674F61BC23F41000E40DA /* ViewController.swift in Sources */,
+				CB8674F41BC23F41000E40DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8675001BC23F41000E40DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8675091BC23F41000E40DA /* CardsteinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB86750B1BC23F41000E40DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8675141BC23F41000E40DA /* CardsteinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB8675061BC23F41000E40DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB8674EF1BC23F41000E40DA /* Cardstein */;
+			targetProxy = CB8675051BC23F41000E40DA /* PBXContainerItemProxy */;
+		};
+		CB8675111BC23F41000E40DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB8674EF1BC23F41000E40DA /* Cardstein */;
+			targetProxy = CB8675101BC23F41000E40DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB8674F71BC23F41000E40DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8674F81BC23F41000E40DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB8674FC1BC23F41000E40DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8674FD1BC23F41000E40DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8675161BC23F41000E40DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB8675171BC23F41000E40DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB8675191BC23F41000E40DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cardstein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charleo.Cardstein;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB86751A1BC23F41000E40DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cardstein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charleo.Cardstein;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB86751C1BC23F41000E40DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardsteinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charleo.CardsteinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardstein.app/Cardstein";
+			};
+			name = Debug;
+		};
+		CB86751D1BC23F41000E40DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardsteinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charleo.CardsteinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardstein.app/Cardstein";
+			};
+			name = Release;
+		};
+		CB86751F1BC23F41000E40DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardsteinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charleo.CardsteinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cardstein;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CB8675201BC23F41000E40DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardsteinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charleo.CardsteinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cardstein;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8674EB1BC23F41000E40DA /* Build configuration list for PBXProject "Cardstein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8675161BC23F41000E40DA /* Debug */,
+				CB8675171BC23F41000E40DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8675181BC23F41000E40DA /* Build configuration list for PBXNativeTarget "Cardstein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8675191BC23F41000E40DA /* Debug */,
+				CB86751A1BC23F41000E40DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB86751B1BC23F41000E40DA /* Build configuration list for PBXNativeTarget "CardsteinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB86751C1BC23F41000E40DA /* Debug */,
+				CB86751D1BC23F41000E40DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB86751E1BC23F41000E40DA /* Build configuration list for PBXNativeTarget "CardsteinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB86751F1BC23F41000E40DA /* Debug */,
+				CB8675201BC23F41000E40DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8674E81BC23F41000E40DA /* Project object */;
+}
