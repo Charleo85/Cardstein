@@ -1,25 +1,272 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vBW-1d-ORc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cardstein" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Zdi-XP-3vG">
+                                <rect key="frame" x="6" y="238" width="362" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="362" id="10C-I8-ma0"/>
+                                    <constraint firstAttribute="height" constant="28" id="yT4-6s-8Sx"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="A"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                    <segment title="J"/>
+                                    <segment title="Q"/>
+                                    <segment title="K"/>
+                                </segments>
+                                <connections>
+                                    <action selector="card_1:" destination="BYZ-38-t0r" eventType="valueChanged" id="Se0-SV-GiR"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ApG-77-tJU">
+                                <rect key="frame" x="6" y="296" width="362" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="763-Ud-epD"/>
+                                    <constraint firstAttribute="width" constant="362" id="Ceo-zA-Wfb"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="A"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                    <segment title="J"/>
+                                    <segment title="Q"/>
+                                    <segment title="K"/>
+                                </segments>
+                                <connections>
+                                    <action selector="card_2:" destination="BYZ-38-t0r" eventType="valueChanged" id="tEf-hr-eTQ"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qVw-zN-3e7">
+                                <rect key="frame" x="6" y="354" width="362" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="4y6-ik-QjL"/>
+                                    <constraint firstAttribute="width" constant="362" id="eIk-Su-5RS"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="A"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                    <segment title="J"/>
+                                    <segment title="Q"/>
+                                    <segment title="K"/>
+                                </segments>
+                                <connections>
+                                    <action selector="card_3:" destination="BYZ-38-t0r" eventType="valueChanged" id="Tvy-JX-1Pb"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvD-iB-Ggc">
+                                <rect key="frame" x="166" y="119" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="待命" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewb-ke-JqG">
+                                <rect key="frame" x="166" y="502" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cZk-mq-ZQW">
+                                <rect key="frame" x="6" y="180" width="362" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="362" id="5Bw-QG-s8A"/>
+                                    <constraint firstAttribute="height" constant="28" id="Sp4-TI-nqq"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="A"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                    <segment title="10"/>
+                                    <segment title="J"/>
+                                    <segment title="Q"/>
+                                    <segment title="K"/>
+                                </segments>
+                                <connections>
+                                    <action selector="card_0:" destination="BYZ-38-t0r" eventType="valueChanged" id="L0w-fK-riA"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6P-S1-DqZ">
+                                <rect key="frame" x="330" y="417" width="38" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Solve"/>
+                                <connections>
+                                    <action selector="Solve24:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BYG-gk-vgN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="cZk-mq-ZQW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="127-Va-9Ma"/>
+                            <constraint firstItem="ApG-77-tJU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3qo-zq-R4Z"/>
+                            <constraint firstItem="cZk-mq-ZQW" firstAttribute="top" secondItem="SvD-iB-Ggc" secondAttribute="bottom" constant="40" id="Dif-O0-QSK"/>
+                            <constraint firstItem="Zdi-XP-3vG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LnT-0m-iZW"/>
+                            <constraint firstItem="qVw-zN-3e7" firstAttribute="top" secondItem="ApG-77-tJU" secondAttribute="bottom" constant="30" id="Q4g-Ib-vMu"/>
+                            <constraint firstItem="qVw-zN-3e7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QEf-JV-SNY"/>
+                            <constraint firstItem="Zdi-XP-3vG" firstAttribute="top" secondItem="cZk-mq-ZQW" secondAttribute="bottom" constant="30" id="aSL-SO-0pp"/>
+                            <constraint firstItem="SvD-iB-Ggc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="asC-u7-ViC"/>
+                            <constraint firstItem="ewb-ke-JqG" firstAttribute="top" secondItem="qVw-zN-3e7" secondAttribute="bottom" constant="93" id="cpZ-wB-xlR"/>
+                            <constraint firstItem="i6P-S1-DqZ" firstAttribute="top" secondItem="qVw-zN-3e7" secondAttribute="bottom" constant="35" id="hY4-45-7Uo"/>
+                            <constraint firstItem="ApG-77-tJU" firstAttribute="top" secondItem="Zdi-XP-3vG" secondAttribute="bottom" constant="30" id="j2d-na-DNt"/>
+                            <constraint firstItem="ApG-77-tJU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="maK-V4-NeT"/>
+                            <constraint firstItem="i6P-S1-DqZ" firstAttribute="trailing" secondItem="qVw-zN-3e7" secondAttribute="trailing" id="o51-wn-n4O"/>
+                            <constraint firstItem="ewb-ke-JqG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pjc-p1-q2n"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ovc-Hb-gY2" appends="YES" id="rIy-Yq-kzd"/>
+                        </connections>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Solve24" destination="i6P-S1-DqZ" id="opA-UJ-Re0"/>
+                        <outlet property="card_0" destination="cZk-mq-ZQW" id="ffH-VE-8si"/>
+                        <outlet property="card_1" destination="Zdi-XP-3vG" id="cVp-ie-DDc"/>
+                        <outlet property="card_2" destination="ApG-77-tJU" id="qOB-Bf-t5X"/>
+                        <outlet property="card_3" destination="qVw-zN-3e7" id="gQL-so-oxP"/>
+                        <outlet property="getBack24" destination="ovc-Hb-gY2" id="cv4-jp-hML"/>
+                        <outlet property="result24" destination="ewb-ke-JqG" id="eq8-aF-clJ"/>
+                        <outlet property="selectedCards" destination="SvD-iB-Ggc" id="V0n-9O-tAK"/>
+                        <segue destination="vBW-1d-ORc" kind="presentation" identifier="24toMain" modalTransitionStyle="flipHorizontal" id="ufW-cx-MYj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="ovc-Hb-gY2">
+                    <rectEdge key="edges" right="YES"/>
+                    <connections>
+                        <action selector="getBack24:" destination="BYZ-38-t0r" id="7GJ-i3-fN9"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="-441.5" y="382.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uDB-OW-3Kg">
+            <objects>
+                <viewController id="vBW-1d-ORc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zzJ-9X-SvP"/>
+                        <viewControllerLayoutGuide type="bottom" id="lDh-x2-MgQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A8G-L6-kQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVg-Gy-P8Q">
+                                <rect key="frame" x="110" y="319" width="154" height="58"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Texas Poke">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IHi-Ox-ydr" kind="popoverPresentation" popoverAnchorView="MVg-Gy-P8Q" id="Gt9-If-paY">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkq-pf-86i">
+                                <rect key="frame" x="123" y="255" width="129" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="24 Game">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="Pkq-pf-86i" id="Bgo-Fr-6gL">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pkq-pf-86i" firstAttribute="centerX" secondItem="A8G-L6-kQ2" secondAttribute="centerX" id="C0U-Ck-nml"/>
+                            <constraint firstItem="MVg-Gy-P8Q" firstAttribute="centerX" secondItem="A8G-L6-kQ2" secondAttribute="centerX" id="c0a-2O-eSO"/>
+                            <constraint firstItem="MVg-Gy-P8Q" firstAttribute="top" secondItem="Pkq-pf-86i" secondAttribute="bottom" constant="20" id="chD-O4-CwP"/>
+                            <constraint firstItem="MVg-Gy-P8Q" firstAttribute="centerY" secondItem="A8G-L6-kQ2" secondAttribute="centerY" id="pN9-s4-SSh"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7c-Ev-9m2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107.5" y="382.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FZP-hF-HQY">
+            <objects>
+                <viewController id="IHi-Ox-ydr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ir9-Vs-GPk"/>
+                        <viewControllerLayoutGuide type="bottom" id="7qH-iu-ldf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uLP-7a-ycs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hS-Lc-wLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616.5" y="382.5"/>
         </scene>
     </scenes>
 </document>
