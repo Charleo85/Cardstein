@@ -91,9 +91,9 @@ class ViewController: UIViewController {
     @IBAction func Solve24(sender: AnyObject) {
         let solveResult = massCalc (cardsList)
         if solveResult.0 {
-        result24.text = showOperation(solveResult.1)
+        result24.text = showOperation(solveResult.1)+"=24"
         }else {
-        result24.text = "放弃吧,少年！"
+        result24.text = "Impossible!!!"
 
         }
     }

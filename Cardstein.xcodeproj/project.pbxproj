@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB719A181C8E377300E7BFE2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB719A171C8E377300E7BFE2 /* CardView.swift */; };
+		CB719A1A1C8E3BE700E7BFE2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB719A191C8E3BE700E7BFE2 /* Card.swift */; };
+		CB719A1C1C8EAA7F00E7BFE2 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB719A1B1C8EAA7F00E7BFE2 /* Hand.swift */; };
+		CB719A1E1C90B07200E7BFE2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB719A1D1C90B07200E7BFE2 /* Deck.swift */; };
 		CB8674F41BC23F41000E40DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8674F31BC23F41000E40DA /* AppDelegate.swift */; };
-		CB8674F61BC23F41000E40DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8674F51BC23F41000E40DA /* ViewController.swift */; };
+		CB8674F61BC23F41000E40DA /* ViewController_24.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8674F51BC23F41000E40DA /* ViewController_24.swift */; };
 		CB8674F91BC23F41000E40DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8674F71BC23F41000E40DA /* Main.storyboard */; };
 		CB8674FB1BC23F41000E40DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8674FA1BC23F41000E40DA /* Assets.xcassets */; };
 		CB8674FE1BC23F41000E40DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8674FC1BC23F41000E40DA /* LaunchScreen.storyboard */; };
 		CB8675091BC23F41000E40DA /* CardsteinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8675081BC23F41000E40DA /* CardsteinTests.swift */; };
 		CB8675141BC23F41000E40DA /* CardsteinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8675131BC23F41000E40DA /* CardsteinUITests.swift */; };
-		CBE496371BC8E06C0043378E /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE496361BC8E06C0043378E /* MainMenu.swift */; settings = {ASSET_TAGS = (); }; };
+		CB88F93D1BDDE8290018251C /* ViewController_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88F93C1BDDE8290018251C /* ViewController_Main.swift */; };
+		CB88F93F1BDDEB340018251C /* ViewController_Texas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88F93E1BDDEB340018251C /* ViewController_Texas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB719A171C8E377300E7BFE2 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CB719A191C8E3BE700E7BFE2 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CB719A1B1C8EAA7F00E7BFE2 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		CB719A1D1C90B07200E7BFE2 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		CB8674F01BC23F41000E40DA /* Cardstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8674F31BC23F41000E40DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB8674F51BC23F41000E40DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB8674F51BC23F41000E40DA /* ViewController_24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_24.swift; sourceTree = "<group>"; };
 		CB8674F81BC23F41000E40DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB8674FA1BC23F41000E40DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8674FD1BC23F41000E40DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,8 +57,9 @@
 		CB86750F1BC23F41000E40DA /* CardsteinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsteinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8675131BC23F41000E40DA /* CardsteinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsteinUITests.swift; sourceTree = "<group>"; };
 		CB8675151BC23F41000E40DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB88F93C1BDDE8290018251C /* ViewController_Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Main.swift; sourceTree = "<group>"; };
+		CB88F93E1BDDEB340018251C /* ViewController_Texas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_Texas.swift; sourceTree = "<group>"; };
 		CBC71A651BC6EA9500193528 /* Cardstein.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Cardstein.entitlements; sourceTree = "<group>"; };
-		CBE496361BC8E06C0043378E /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +112,14 @@
 			children = (
 				CBC71A651BC6EA9500193528 /* Cardstein.entitlements */,
 				CB8674F31BC23F41000E40DA /* AppDelegate.swift */,
-				CB8674F51BC23F41000E40DA /* ViewController.swift */,
 				CB8674F71BC23F41000E40DA /* Main.storyboard */,
-				CBE496361BC8E06C0043378E /* MainMenu.swift */,
+				CB88F93E1BDDEB340018251C /* ViewController_Texas.swift */,
+				CB719A171C8E377300E7BFE2 /* CardView.swift */,
+				CB719A191C8E3BE700E7BFE2 /* Card.swift */,
+				CB719A1B1C8EAA7F00E7BFE2 /* Hand.swift */,
+				CB719A1D1C90B07200E7BFE2 /* Deck.swift */,
+				CB88F93C1BDDE8290018251C /* ViewController_Main.swift */,
+				CB8674F51BC23F41000E40DA /* ViewController_24.swift */,
 				CB8674FA1BC23F41000E40DA /* Assets.xcassets */,
 				CB8674FC1BC23F41000E40DA /* LaunchScreen.storyboard */,
 				CB8674FF1BC23F41000E40DA /* Info.plist */,
@@ -211,6 +226,7 @@
 					};
 					CB86750E1BC23F41000E40DA = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UFEDQ34U83;
 						TestTargetID = CB8674EF1BC23F41000E40DA;
 					};
 				};
@@ -267,9 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8674F61BC23F41000E40DA /* ViewController.swift in Sources */,
-				CBE496371BC8E06C0043378E /* MainMenu.swift in Sources */,
+				CB719A181C8E377300E7BFE2 /* CardView.swift in Sources */,
+				CB719A1A1C8E3BE700E7BFE2 /* Card.swift in Sources */,
+				CB88F93F1BDDEB340018251C /* ViewController_Texas.swift in Sources */,
+				CB8674F61BC23F41000E40DA /* ViewController_24.swift in Sources */,
+				CB719A1E1C90B07200E7BFE2 /* Deck.swift in Sources */,
+				CB719A1C1C8EAA7F00E7BFE2 /* Hand.swift in Sources */,
 				CB8674F41BC23F41000E40DA /* AppDelegate.swift in Sources */,
+				CB88F93D1BDDE8290018251C /* ViewController_Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,14 +430,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jibang Wu (24L8KMBE5Y)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jibang Wu (24L8KMBE5Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Cardstein/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.Cardstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ed70b80c-072b-4964-a3b9-a91019bc9ea6";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -427,15 +449,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jibang Wu (24L8KMBE5Y)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jibang Wu (24L8KMBE5Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Cardstein/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.Cardstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ed70b80c-072b-4964-a3b9-a91019bc9ea6";
+				PROVISIONING_PROFILE = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -468,10 +491,13 @@
 		CB86751F1BC23F41000E40DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CardsteinUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.CardsteinUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = Cardstein;
 				USES_XCTRUNNER = YES;
 			};
@@ -480,10 +506,13 @@
 		CB8675201BC23F41000E40DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CardsteinUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = charleo.CardsteinUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = Cardstein;
 				USES_XCTRUNNER = YES;
 			};

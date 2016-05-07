@@ -1,14 +1,14 @@
 //
-//  MainMenu.swift
+//  ViewController_Main.swift
 //  Cardstein
 //
-//  Created by CharlieWu on 10/10/15.
+//  Created by CharlieWu on 10/26/15.
 //  Copyright © 2015 CharlieWu. All rights reserved.
 //
 
 import UIKit
 
-class MainMenu: UIViewController {
+class ViewController_Main: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class MainMenu: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet var getBack: UIScreenEdgePanGestureRecognizer!
 
     /*
     // MARK: - Navigation
