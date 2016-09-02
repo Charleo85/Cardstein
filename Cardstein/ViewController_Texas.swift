@@ -45,8 +45,9 @@ class ViewController_Texas: UIViewController {
 //        let hand = Hand(new: eva)
 //        hand.evaluate()
 //        result.text = hand.description
-        let res = predict()
-        result.text = result.text! + "\n" + res.win.description + " , " + res.lose.description
+        
+//        let res = predict()
+//        result.text = result.text! + "\n" + res.win.description + " , " + res.lose.description
         
 //        var	cards : [Card] = []
 //        for cardview in cardViews! {
